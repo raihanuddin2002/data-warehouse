@@ -1,0 +1,40 @@
+/* Common css */
+
+body {
+    margin: 0px;
+}
+
+:root {
+    --color-navy: #212353;
+    --color-dark-gray: #4B5D68;
+    --color-purple: #9C69E2;
+    --color-pink: #F063B8;
+    --color-cyan: #68C9BA;
+}
+
+.text-navy {
+    color: var(--color-navy);
+}
+
+.text-cyan {
+    color: var(--color-cyan);
+}
+
+.text-dark-gray {
+    color: var(--color-dark-gray);
+}
+
+.text-purple {
+    color: var(--color-purple);
+}
+
+.text-pink {
+    color: var(--color-pink);
+}
+
+
+/* Menu css */
+
+#check:checked~ul {
+    display: block !important;
+}
