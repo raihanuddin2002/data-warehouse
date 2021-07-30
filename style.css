@@ -38,3 +38,22 @@ body {
 #check:checked~ul {
     display: block !important;
 }
+
+
+/* Features */
+
+.article-1,
+.article-4 {
+    background: url(images/Rectangle\ 39bg3\,1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.article-2,
+.article-3 {
+    background: url(images/Rectangle\ 39bg.3\,2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
